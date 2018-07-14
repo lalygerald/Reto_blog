@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*clase del body*/
+.gastronomia-body {
+	background-image: url(../img/cocina-moderna.JPG);
+	background-attachment: scroll;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	width: 100%;
+ 	height: 100%;
+}
+
+.button{
+	background-color: FUCHSIA;
+}
+
+.hollow{
+border-color: FUCHSIA!important;
+}
+
+/*clase del contenedor*/
+.contenedor {
+	background-color: #D8BFD8;
+	opacity: 0.85;
+}
+
+/*clase del header*/
+#encabezado {
+	color: black;
+	border-right: solid 2px black;
+}
+
+.nombre {
+	text-align: left;
+}
+
+.slogan {
+	text-align: right;
+}
+
+/*clase para el contenedor*/
+.secciones {
+	border-top: solid 2px black;
+}
+
+/*clase de busqueda*/
+#busqueda {
+	background-color: #E6E6FA;
+}
+
+/*clase de contenido*/
+.contenido {
+	background-color: #DDA0DD;
+}
+
+.comentarios {
+	border-top: solid 2px black;
+}
+
+.usuario {
+	background-color:#DDA0DD;
+}
+
+/*clase de imagenes*/

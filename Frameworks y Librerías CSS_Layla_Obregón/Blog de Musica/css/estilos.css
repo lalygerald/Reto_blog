@@ -1,0 +1,160 @@
+.contenido {
+  margin: 0 auto;
+  width: 90%;
+  background-color: black;
+}
+
+.container-fluid{
+  background-color: rgba(170, 21, 21, 0.95);
+  font-weight: bolder;
+  /* font-style: oblique; */
+  color: black;
+}
+
+.navbar-inverse{
+  background-color: rgba(170, 21, 21, 0.95);
+  border: none;
+  min-height: 10px;
+}
+
+.navbar-inverse .nav li a{
+  color: rgba(211,211,211)
+}
+
+.navbar-inverse .nav li a:hover{
+  color: red;
+}
+
+.navbar{
+  background-color: white;
+  color:white;
+}
+
+.container{
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  color: black;
+}
+.nav-justified{
+  color: red;
+}
+
+.logo-img {
+  max-width: 250px;
+  /* max-height: 100%; */
+  border-radius: none;
+  margin: 5px;
+}
+
+.redes-sociales {
+  /* margin:0px; */
+  padding: 0px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+
+}
+
+.img-social:hover{
+  border: 3px outset white;
+}
+.img-post{
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.glyphicon {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+    vertical-align: top;
+}
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.comentario{
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+.row{
+margin-top: 20px;
+}
+
+/* .form-control{
+  background-color: #f2f2f7;
+  color: white;
+} */
+.list-group{
+  background-color: #e6fff7;
+
+}
+
+@media (max-width:1000px) {
+  .redes-sociales {
+    /* margin:0px; */
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+
+  }
+  .comentario{
+
+    width: 85%;
+    margin: 0 auto;
+  }
+  .contenido{
+    width: 95%;
+  }
+  .gi-2x{font-size: 1.5em;}
+  .gi-3x{font-size: 1.5em;}
+}
+
+
+@media (max-width:770px) {
+
+      .gi-2x{font-size: 1em;}
+      .gi-3x{font-size: 2em;}
+      .gi-4x{font-size: 3em;}
+      .gi-5x{font-size: 4em;}
+
+      .contenido {
+        margin: 0 auto;
+        width: 100%;
+      }
+      .redes-sociales {
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+        /* border: 1px solid black; */
+      }
+      .comentario{
+        width: 70%;
+      }
+
+      .logo-img {
+        /* margin: 5px; */
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .logo{
+        width: 100%;
+        align-content: center;
+        text-align: center;
+      }
+}
